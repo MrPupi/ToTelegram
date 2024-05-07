@@ -19,7 +19,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
   })
   .then(response => response.json())
   .then(data => {
-      alert('Message sent!');
+      // alert('Message sent!');
       console.log(data);
   })
   .catch(error => console.error(error));
